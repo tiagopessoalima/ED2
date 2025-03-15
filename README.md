@@ -1,4 +1,4 @@
-# Estrutura de Dados II
+# Estrutura de Dados 2
 
 Este repositório contém os materiais, códigos e projetos desenvolvidos durante a disciplina de **Estrutura de Dados 2** do IFPE-Palmares, ministrada pelo professor Tiago Pessoa Ferreira de Lima. Nele você encontrará conteúdos teóricos e práticos que abrangem desde a análise de algoritmos até a implementação de estruturas avançadas, com foco exclusivo na linguagem Python.
 
