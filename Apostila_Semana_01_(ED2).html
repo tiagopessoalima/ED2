@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complexidade de Algoritmos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      max-width: 800px;
+    }
+    h1, h2, h3, h4 {
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    a {
+      color: #0645AD;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    blockquote {
+      border-left: 4px solid #ddd;
+      margin: 20px 0;
+      padding-left: 15px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Complexidade de Algoritmos</h1>
+  <p>Este documento apresenta um relatório detalhado sobre a <strong>complexidade de algoritmos</strong>, abordando sua definição, os tipos de complexidade (tempo e espaço), a notação Big O e exemplos práticos. Compreender esses conceitos é fundamental para a escolha de algoritmos eficientes, especialmente em cenários com grandes volumes de dados.</p>
+
+  <hr>
+
+  <h2>1. Introdução à Complexidade de Algoritmos</h2>
+  <p>Em ciência da computação, um algoritmo é definido como uma sequência finita de passos bem definidos, utilizados para resolver problemas ou realizar tarefas específicas. A análise da eficiência desses algoritmos torna-se crucial à medida que os problemas se tornam maiores, permitindo avaliar os recursos computacionais (tempo e espaço) consumidos conforme o tamanho da entrada aumenta. Essa compreensão auxilia cientistas e desenvolvedores na escolha do algoritmo mais adequado para cada situação.</p>
+
+  <hr>
+
+  <h2>2. Definição de Complexidade de Algoritmos</h2>
+  <p>A <strong>complexidade de um algoritmo</strong> refere-se à medida dos recursos computacionais necessários (tempo de execução e espaço de memória) para executar o algoritmo, expressa como uma função do tamanho da entrada. A análise foca no comportamento assintótico — ou seja, como esses recursos crescem à medida que o tamanho da entrada aumenta. Essa análise é vital para prever o desempenho e comparar diferentes abordagens.</p>
+
+  <hr>
+
+  <h2>3. Tipos de Complexidade</h2>
+  
+  <h3>3.1. Complexidade de Tempo</h3>
+  <ul>
+    <li><strong>Definição:</strong> Mede o número de operações elementares realizadas em função do tamanho da entrada.</li>
+    <li><strong>Objetivo:</strong> Comparar algoritmos com base no crescimento do número de operações à medida que <em>n</em> (tamanho da entrada) aumenta.</li>
+  </ul>
+
+  <h3>3.2. Complexidade de Espaço</h3>
+  <ul>
+    <li><strong>Definição:</strong> Mede a quantidade de memória utilizada pelo algoritmo durante sua execução.</li>
+    <li><strong>Objetivo:</strong> Avaliar o espaço ocupado pelos dados de entrada, variáveis auxiliares e estruturas de dados utilizadas.</li>
+  </ul>
+  <blockquote>
+    Em alguns casos, pode haver uma troca entre tempo e espaço, onde otimizar um pode aumentar o outro.
+  </blockquote>
+
+  <hr>
+
+  <h2>4. Notação Big O</h2>
+
+  <h3>4.1. Introdução à Notação Big O</h3>
+  <p>A notação Big O é uma ferramenta matemática que descreve o limite superior assintótico da complexidade de tempo ou espaço, focando no termo dominante e ignorando constantes e termos de ordem inferior.</p>
+
+  <h3>4.2. Significado e Importância</h3>
+  <ul>
+    <li>Permite comparar algoritmos de forma padronizada, independente de hardware ou linguagem de programação.</li>
+    <li>Facilita a previsão do comportamento de um algoritmo com o aumento do tamanho da entrada.</li>
+  </ul>
+
+  <h3>4.3. Regras para Determinar a Complexidade Big O</h3>
+  <ul>
+    <li>Operações básicas (atribuições, operações aritméticas, acesso a arrays) são geralmente O(1).</li>
+    <li>Estruturas de controle como loops são analisadas multiplicando a quantidade de iterações pela complexidade das operações internas.</li>
+    <li>Em loops aninhados, a complexidade é o produto das complexidades de cada loop.</li>
+    <li>Fatores constantes e termos de ordem inferior são ignorados.</li>
+  </ul>
+
+  <h3>4.4. Classes de Complexidade Big O</h3>
+  <ul>
+    <li><strong>O(1):</strong> Constante</li>
+    <li><strong>O(log n):</strong> Logarítmica</li>
+    <li><strong>O(n):</strong> Linear</li>
+    <li><strong>O(n log n):</strong> Linearítmica</li>
+    <li><strong>O(n²):</strong> Quadrática</li>
+    <li><strong>O(n³):</strong> Cúbica</li>
+    <li><strong>O(2^n):</strong> Exponencial</li>
+    <li><strong>O(n!):</strong> Fatorial</li>
+  </ul>
+
+  <hr>
+
+  <h2>5. Exemplos de Algoritmos e Complexidade de Tempo</h2>
+
+  <h3>5.1. O(1) - Complexidade Constante</h3>
+  <p><strong>Exemplo:</strong> Acesso a um elemento específico de um array ou troca de valores entre duas variáveis.</p>
+
+  <h3>5.2. O(log n) - Complexidade Logarítmica</h3>
+  <p><strong>Exemplo:</strong> Busca binária em um array ordenado, onde o problema é dividido em partes menores a cada iteração.</p>
+
+  <h3>5.3. O(n) - Complexidade Linear</h3>
+  <p><strong>Exemplo:</strong> Procura pelo menor item em um array não ordenado ou soma de todos os elementos de uma lista.</p>
+
+  <h3>5.4. O(n log n) - Complexidade Linearítmica</h3>
+  <p><strong>Exemplo:</strong> Algoritmos de ordenação como Merge Sort, Heap Sort e Quicksort (caso médio).</p>
+
+  <h3>5.5. O(n²) - Complexidade Quadrática</h3>
+  <p><strong>Exemplo:</strong> Algoritmos como Bubble Sort e Insertion Sort, que frequentemente usam loops aninhados.</p>
+
+  <hr>
+
+  <h2>6. Exemplos de Algoritmos e Complexidade de Espaço</h2>
+
+  <h3>6.1. O(1) - Espaço Constante</h3>
+  <p><strong>Exemplo:</strong> Algoritmos que utilizam um número fixo de variáveis auxiliares.</p>
+
+  <h3>6.2. O(n) - Espaço Linear</h3>
+  <p><strong>Exemplo:</strong> Criação de uma cópia de um array de entrada.</p>
+
+  <h3>6.3. O(n²) - Espaço Quadrático</h3>
+  <p><strong>Exemplo:</strong> Representação de uma matriz de adjacência para um grafo, onde a matriz possui dimensões n x n.</p>
+
+  <hr>
+
+  <h2>7. Comparação de Complexidade para o Mesmo Problema</h2>
+  <p>A escolha do algoritmo afeta significativamente a eficiência. Dois exemplos comuns:</p>
+  <ul>
+    <li>
+      <strong>Pesquisa em Array:</strong>
+      <ul>
+        <li>Pesquisa Linear: O(n)</li>
+        <li>Busca Binária (em array ordenado): O(log n)</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Ordenação de Array:</strong>
+      <ul>
+        <li>Algoritmos como Bubble Sort, Insertion Sort e Selection Sort: O(n²)</li>
+        <li>Algoritmos como Merge Sort e Heap Sort: O(n log n)</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p>A tabela abaixo resume a complexidade de alguns algoritmos:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Algoritmo</th>
+        <th>Melhor Caso</th>
+        <th>Caso Médio</th>
+        <th>Pior Caso</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Bubble Sort</td>
+        <td>O(n)</td>
+        <td>O(n²)</td>
+        <td>O(n²)</td>
+      </tr>
+      <tr>
+        <td>Insertion Sort</td>
+        <td>O(n)</td>
+        <td>O(n²)</td>
+        <td>O(n²)</td>
+      </tr>
+      <tr>
+        <td>Selection Sort</td>
+        <td>O(n²)</td>
+        <td>O(n²)</td>
+        <td>O(n²)</td>
+      </tr>
+      <tr>
+        <td>Merge Sort</td>
+        <td>O(n log n)</td>
+        <td>O(n log n)</td>
+        <td>O(n log n)</td>
+      </tr>
+      <tr>
+        <td>Quick Sort</td>
+        <td>O(n log n)</td>
+        <td>O(n log n)</td>
+        <td>O(n²)</td>
+      </tr>
+      <tr>
+        <td>Heap Sort</td>
+        <td>O(n log n)</td>
+        <td>O(n log n)</td>
+        <td>O(n log n)</td>
+      </tr>
+      <tr>
+        <td>Linear Search</td>
+        <td>O(1)</td>
+        <td>O(n)</td>
+        <td>O(n)</td>
+      </tr>
+      <tr>
+        <td>Binary Search</td>
+        <td>O(1)</td>
+        <td>O(log n)</td>
+        <td>O(log n)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h2>8. Impacto das Estruturas de Dados na Complexidade</h2>
+  <p>A organização e o armazenamento dos dados influenciam diretamente a complexidade dos algoritmos:</p>
+  <ul>
+    <li>
+      <strong>Array:</strong>
+      <ul>
+        <li>Acesso: O(1)</li>
+        <li>Inserção/Remoção: O(n)</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Lista Ligada:</strong>
+      <ul>
+        <li>Inserção/Remoção (com ponteiro): O(1)</li>
+        <li>Acesso: O(n)</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Hash Table (ou Dicionário):</strong>
+      <ul>
+        <li>Operações em média: O(1)</li>
+        <li>Operações no pior caso (colisões): O(n)</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Árvore de Busca Binária Balanceada:</strong>
+      <ul>
+        <li>Operações de busca, inserção e remoção: O(log n)</li>
+      </ul>
+    </li>
+  </ul>
+  <p>A escolha adequada da estrutura de dados é crucial para otimizar o desempenho das operações e, consequentemente, a eficiência dos algoritmos.</p>
+
+  <hr>
+
+  <h2>9. Complexidade de Algoritmos e Escalabilidade de Software</h2>
+  <p>A eficiência dos algoritmos impacta diretamente a escalabilidade de um software. Algoritmos com alta complexidade (por exemplo, O(n²) ou O(2^n)) podem funcionar bem com dados pequenos, mas tornam-se inviáveis à medida que o volume aumenta. Por outro lado, algoritmos com baixa complexidade (como O(log n) ou O(n)) garantem melhor desempenho e escalabilidade, possibilitando o processamento de grandes quantidades de dados e usuários.</p>
+
+  <hr>
+
+  <h2>10. Conclusão</h2>
+  <p>Este relatório destacou a importância da <strong>análise de complexidade de algoritmos</strong> para o desenvolvimento de software eficiente e escalável. A compreensão da notação Big O e a avaliação de diferentes algoritmos e estruturas de dados permitem prever o comportamento do software sob cargas maiores, auxiliando na escolha da abordagem mais adequada para resolver problemas computacionais.</p>
+
+  <hr>
+
+  <h2>Referências</h2>
+  <ol>
+    <li>
+      <strong>Análise da Complexidade de Algoritmos: entenda!</strong> - Iugu<br>
+      <a href="https://www.iugu.com/blog/analise-complexidade-algoritmos" target="_blank">https://www.iugu.com/blog/analise-complexidade-algoritmos</a>
+    </li>
+    <li>
+      <strong>Complexidade de Algoritmos - IME-USP</strong><br>
+      <a href="https://www.ime.usp.br/~song/mac5710/slides/01complex.pdf" target="_blank">https://www.ime.usp.br/~song/mac5710/slides/01complex.pdf</a>
+    </li>
+    <li>
+      <strong>www.inf.ufrgs.br</strong><br>
+      <a href="https://www.inf.ufrgs.br/~prestes/Slides/aula1.pdf" target="_blank">https://www.inf.ufrgs.br/~prestes/Slides/aula1.pdf</a>
+    </li>
+    <li>
+      <strong>Notação Big O e guia de complexidade de tempo: Intuição e matemática | DataCamp</strong><br>
+      <a href="https://www.datacamp.com/pt/tutorial/big-o-notation-time-complexity" target="_blank">https://www.datacamp.com/pt/tutorial/big-o-notation-time-complexity</a>
+    </li>
+    <li>
+      <strong>Entenda a complexidade algorítmica e notação Big O na...</strong><br>
+      <a href="https://www.escoladnc.com.br/blog/a-importancia-da-complexidade-algoritmica-e-notacao-big-o-na-programacao/" target="_blank">https://www.escoladnc.com.br/blog/a-importancia-da-complexidade-algoritmica-e-notacao-big-o-na-programacao/</a>
+    </li>
+    <li>
+      <strong>O que é escalabilidade de software e serviços? | Lucidchart Blog</strong><br>
+      <a href="https://www.lucidchart.com/blog/pt/o-que-e-escalabilidade-de-software-e-servicos" target="_blank">https://www.lucidchart.com/blog/pt/o-que-e-escalabilidade-de-software-e-servicos</a>
+    </li>
+    <li>
+      <strong>Complexidade Quadrática O(N²) | Wagner Abrantes | GoLang | DIO</strong><br>
+      <a href="https://www.dio.me/articles/complexidade-quadratica-on2" target="_blank">https://www.dio.me/articles/complexidade-quadratica-on2</a>
+    </li>
+    <li>
+      <strong>Complexidade temporal – Wikipédia</strong><br>
+      <a href="https://pt.wikipedia.org/wiki/Complexidade_temporal" target="_blank">https://pt.wikipedia.org/wiki/Complexidade_temporal</a>
+    </li>
+    <li>
+      <strong>Complexidade de tempo – Wikipédia</strong><br>
+      <a href="https://pt.wikipedia.org/wiki/Complexidade_de_tempo" target="_blank">https://pt.wikipedia.org/wiki/Complexidade_de_tempo</a>
+    </li>
+    <li>
+      <strong>Estruturas de dados: uma introdução | Alura</strong><br>
+      <a href="https://www.alura.com.br/artigos/estruturas-de-dados-introducao" target="_blank">https://www.alura.com.br/artigos/estruturas-de-dados-introducao</a>
+    </li>
+  </ol>
+
+</body>
+</html>
