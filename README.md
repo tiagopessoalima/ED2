@@ -34,7 +34,7 @@ A disciplina é dividida em 20 semanas, com aulas semanais, distribuídas confor
 | **06** | **Heaps e B-Trees** | **Conteúdo:** Filas de Prioridade (Binary Heaps) e introdução a Árvores B (armazenamento em disco).<br>**Obj:** Aplicações em ordenação e bancos de dados. | [Notebook](Semana_06.ipynb) |
 | **07** | **Revisão e Prática II** | **Atividade:** Exercícios de rastreamento de rotações AVL e simulação de operações em Heaps.<br>**Foco:** Fixação de regras de balanceamento. | [Lista 02](Lista_02.pdf) |
 | **08** | **🛡️ PROVA 2** | **Avaliação:** Árvores AVL, Heaps e Conceitos de B-Trees. | -- |
-| **09** | **🗣️ Seminário 1** | **Temas:** Árvores em SGBDs (Postgres/MySQL), Sistemas de Arquivos (NTFS/Ext4) ou Compressão Huffman. | [Diretrizes](Seminario_01.pdf) |
+| **09** | **🗣️ Seminário 1** | **Tópicos Extras:** <br> 1. Árvores Rubro-Negras (Red-Black Trees); <br> 2. Tries (Árvores de Prefixo) e Huffman; <br> 3. Árvores Splay ou Skip Lists. | [Diretrizes](Seminario_01.pdf) |
 | **10** | **🚀 PROJETO 1** | **Entrega:** Implementação de um Indexador/Dicionário utilizando Árvores (BST/AVL ou Tries). | [Spec Projeto](Projeto_01.pdf) |
 | **11** | **Hashing (Tabelas Hash)** | **Conteúdo:** Funções de Hash, Tabelas de Dispersão e Tratamento de Colisões (Encadeamento vs End. Aberto).<br>**Obj:** Acesso direto $O(1)$. | [Notebook](Semana_11.ipynb) |
 | **12** | **Grafos: Intro e Travessias** | **Conteúdo:** Representação (Matriz/Lista Adjacência), Busca em Largura (BFS) e Profundidade (DFS).<br>**Obj:** Modelar relacionamentos e percorrer grafos. | [Notebook](Semana_12.ipynb) |
