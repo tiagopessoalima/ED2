@@ -26,7 +26,7 @@ A disciplina é dividida em 20 semanas, com aulas semanais, distribuídas confor
 
 | Sem | Tópico | Descrição e Objetivos | 🛠️ Material |
 | :-: | :--- | :--- | :--- |
-| **01** | **Algoritmos de Busca** | **Conteúdo:** Busca Linear, Binária (Iterativa/Recursiva) e Interpolada.<br>**Obj:** Entender limitações de vetores e a necessidade de dados ordenados. | [Notebook](Semana_01.ipynb) |
+| **01** | **Algoritmos de Busca** | **Conteúdo:** Busca Linear, Binária (Iterativa/Recursiva) e Interpolada.<br>**Obj:** Entender limitações de vetores e a necessidade de dados ordenados. | [Notebook](Semana_01_(ED2).ipynb) |
 | **02** | **Árvores Binárias e BST** | **Conteúdo:** Conceitos (Raiz, Folha, Altura), Percursos (Pré/Em/Pós-ordem) e operações em BST.<br>**Obj:** Implementar recursão e operações de CRUD em árvores. | [Notebook](Semana_02.ipynb) |
 | **03** | **Revisão e Prática I** | **Atividade:** Resolução de lista de exercícios focada em recursão e manipulação de ponteiros em BST.<br>**Foco:** Preparação para a prova. | [Lista 01](Lista_01.pdf) |
 | **04** | **🛡️ PROVA 1** | **Avaliação:** Algoritmos de Busca e Árvores Binárias de Busca (BST). | -- |
