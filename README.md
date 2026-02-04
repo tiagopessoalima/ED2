@@ -35,7 +35,7 @@ A disciplina é dividida em 20 semanas, com aulas semanais, distribuídas confor
 | **07** | **Revisão e Prática II** | **Atividade:** Exercícios de rastreamento de rotações AVL e simulação de operações em Heaps.<br>**Foco:** Fixação de regras de balanceamento. | [Lista 02](Lista_02.pdf) |
 | **08** | **🛡️ PROVA 2** | **Avaliação:** Árvores AVL, Heaps e Conceitos de B-Trees. | -- |
 | **09** | **🗣️ Seminário 1** | **Tópicos Extras:** <br> 1. Árvores Rubro-Negras (Red-Black Trees); <br> 2. Tries (Árvores de Prefixo) e Huffman; <br> 3. Árvores Splay ou Skip Lists. | [Diretrizes](Seminario_01.pdf) |
-| **10** | **🚀 PROJETO 1** | **Entrega:** Implementação de um Indexador/Dicionário utilizando Árvores (BST/AVL ou Tries). | [Spec Projeto](Projeto_01.pdf) |
+| **10** | **🚀 PROJETO 1** | Entrega: Motor de Busca por Similaridade (K-Nearest Neighbors) otimizado por uma KD-Tree. | [Spec Projeto](Projeto_01.pdf) |
 | **11** | **Hashing (Tabelas Hash)** | **Conteúdo:** Funções de Hash, Tabelas de Dispersão e Tratamento de Colisões (Encadeamento vs End. Aberto).<br>**Obj:** Acesso direto $O(1)$. | [Notebook](Semana_11.ipynb) |
 | **12** | **Grafos: Intro e Travessias** | **Conteúdo:** Representação (Matriz/Lista Adjacência), Busca em Largura (BFS) e Profundidade (DFS).<br>**Obj:** Modelar relacionamentos e percorrer grafos. | [Notebook](Semana_12.ipynb) |
 | **13** | **Revisão e Prática III** | **Atividade:** Problemas de cálculo de hash e desenho de travessias em grafos.<br>**Foco:** Preparação para a prova. | [Lista 03](Lista_03.pdf) |
@@ -44,8 +44,8 @@ A disciplina é dividida em 20 semanas, com aulas semanais, distribuídas confor
 | **16** | **Topologia e MST** | **Conteúdo:** Árvore Geradora Mínima (Prim/Kruskal) e Ordenação Topológica.<br>**Obj:** Conectividade de redes e resolução de dependências. | [Notebook](Semana_16.ipynb) |
 | **17** | **Revisão e Prática IV** | **Atividade:** Resolução de problemas complexos de grafos (estilo Maratona de Programação).<br>**Foco:** Identificar qual algoritmo usar. | [Lista 04](Lista_04.pdf) |
 | **18** | **🛡️ PROVA 4** | **Avaliação:** Caminhos Mínimos, MST e Ordenação Topológica. | -- |
-| **19** | **🗣️ Seminário 2** | **Tópicos Extras (Não vistos em aula):** <br> 1. Algoritmos de Fluxo Máximo (Ford-Fulkerson); <br> 2. Busca Heurística A* (A-Star); <br> 3. Filtros de Bloom (Bloom Filters) e HyperLogLog. | [Diretrizes](Seminario_02.pdf) |
-| **20** | **🚀 PROJETO 2** | **Entrega:** Sistema de Rotas ou Recomendação (Integração Hash + Grafos). | [Spec Projeto](Projeto_02.pdf) |
+| **19** | **🗣️ Seminário 2** | **Tópicos Extras:** <br> 1. Algoritmos de Fluxo Máximo (Ford-Fulkerson); <br> 2. Busca Heurística A* (A-Star); <br> 3. Filtros de Bloom (Bloom Filters) e HyperLogLog. | [Diretrizes](Seminario_02.pdf) |
+| **20** | **🚀 PROJETO 2** | **Entrega:** Sistema de Detecção de Outliers e Anomalias: Identificar lesões raras que não se agrupam em clusters conhecidos. |
 
 ## 💡 Como Utilizar Este Repositório
 
