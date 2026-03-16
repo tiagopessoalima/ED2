@@ -26,24 +26,24 @@ A disciplina é dividida em 20 semanas, com aulas semanais, distribuídas confor
 
 | Sem | Tópico | Descrição e Objetivos | 🛠️ Material |
 | :-: | :--- | :--- | :--- |
-| **01** | **Algoritmos de Busca** | **Conteúdo:** Busca Binária (Iterativa e Recursiva) e análise de complexidade.<br> **Obj:** Compreender a busca eficiente em dados ordenados e a lógica de divisão e conquista. | [Notebook](Semana_01.ipynb) |
-| **02** | **Introdução a Árvores** | **Conteúdo:** Conceitos básicos, terminologia (Raiz, Folha, Altura, Grau) e aplicações.<br>**Obj:** Entender estruturas hierárquicas e o abandono da linearidade. | [Notebook](Semana_02.ipynb) |
-| **03** | **Árvores Binárias** | **Conteúdo:** Representação na memória, recursão estrutural e percursos (Pré, Em, Pós-ordem e Largura).<br>**Obj:** Criação de nós, manipulação de ligações e extração de dados. | [Notebook](Semana_03.ipynb) |
-| **04** | **Revisão e Prática I** | **Atividade:** Resolução de lista de exercícios focada em recursão e ponteiros em árvores.<br>**Foco:** Preparação para a prova. | [Lista 01](Lista_01.pdf) |
+| **01** | **Algoritmos de Busca** | **Conteúdo:** Busca Binária (Iterativa e Recursiva) e análise de complexidade. **Obj:** Compreender a busca eficiente em dados ordenados e a lógica de divisão e conquista. | [Notebook](Semana_01.ipynb) |
+| **02** | **Introdução a Árvores** | **Conteúdo:** Conceitos básicos, terminologia (Raiz, Folha, Altura, Grau) e aplicações. **Obj:** Entender estruturas hierárquicas e o abandono da linearidade. | [Notebook](Semana_02.ipynb) |
+| **03** | **Árvores Binárias** | **Conteúdo:** Representação na memória, recursão estrutural e percursos (Pré, Em, Pós-ordem e Largura). **Obj:** Criação de nós, manipulação de ligações e extração de dados. | [Notebook](Semana_03.ipynb) |
+| **04** | **Revisão e Prática I** | **Atividade:** Resolução de lista de exercícios focada em recursão e ponteiros em árvores. **Foco:** Preparação para a prova. | [Lista 01](Lista_01.pdf) |
 | **05** | **🛡️ PROVA 1** | **Avaliação:** Busca Binária, Fundamentos de Árvores e Árvores Binárias (Estrutura e Percursos). | -- |
-| **06** | **Árv. Binárias de Busca (BST)** | **Conteúdo:** Regras fundamentais, busca, inserção e remoção.**Obj:** Garantir a propriedade de ordenação e integridade após modificações. | [Notebook](Semana_06.ipynb) |
+| **06** | **Árv. Binárias de Busca (BST)** | **Conteúdo:** Regras fundamentais, busca, inserção e remoção. **Obj:** Garantir a propriedade de ordenação e integridade após modificações. | [Notebook](Semana_06.ipynb) |
 | **07** | **Árvores AVL (Parte 1)** | **Conteúdo:** Fator de balanceamento e Rotações Simples (LL, RR). **Obj:** Identificar o desbalanceamento e aplicar correções básicas. | [Notebook](Semana_07.ipynb) |
-| **08** | **Árvores AVL (Parte 2)** | **Conteúdo:** Rotações Duplas (LR, RL) e balanceamento contínuo.<br>**Obj:** Garantir busca em tempo O(log n) em todos os casos. | [Notebook](Semana_08.ipynb) |
-| **09** | **Revisão e Prática II** | **Atividade:** Exercícios de rastreamento de rotações AVL no papel e no código.<br>**Foco:** Fixação de regras de balanceamento. | [Lista 02](Lista_02.pdf) |
+| **08** | **Árvores AVL (Parte 2)** | **Conteúdo:** Rotações Duplas (LR, RL) e balanceamento contínuo. **Obj:** Garantir busca em tempo O(log n) em todos os casos. | [Notebook](Semana_08.ipynb) |
+| **09** | **Revisão e Prática II** | **Atividade:** Exercícios de rastreamento de rotações AVL no papel e no código. **Foco:** Fixação de regras de balanceamento. | [Lista 02](Lista_02.pdf) |
 | **10** | **🛡️ PROVA 2** | **Avaliação:** Árvores Binárias de Busca (BST), Árvores AVL e Balanceamento. | -- |
-| **11** | **Heaps e B-Trees** | **Conteúdo:** Filas de Prioridade (Binary Heaps) e introdução a Árvores B (armazenamento em disco).<br>**Obj:** Aplicações em ordenação e bancos de dados. | [Notebook](Semana_11.ipynb) |
-| **12** | **Hashing (Tabelas Hash)** | **Conteúdo:** Funções de Hash, Tabelas de Dispersão e Tratamento de Colisões (Encadeamento vs End. Aberto).<br>**Obj:** Acesso direto O(1). | [Notebook](Semana_12.ipynb) |
-| **13** | **Grafos: Intro e Travessias** | **Conteúdo:** Representação (Matriz/Lista Adjacência), Busca em Largura (BFS) e Profundidade (DFS).<br><br>**Obj:** Modelar relacionamentos e percorrer grafos. | [Notebook](Semana_13.ipynb) |
-| **14** | **Revisão e Prática III** | **Atividade:** Problemas de cálculo de hash e desenho de travessias em grafos.<br>**Foco:** Preparação para a prova. | [Lista 03](Lista_03.pdf) |
+| **11** | **Heaps e B-Trees** | **Conteúdo:** Filas de Prioridade (Binary Heaps) e introdução a Árvores B (armazenamento em disco). **Obj:** Aplicações em ordenação e bancos de dados. | [Notebook](Semana_11.ipynb) |
+| **12** | **Hashing (Tabelas Hash)** | **Conteúdo:** Funções de Hash, Tabelas de Dispersão e Tratamento de Colisões (Encadeamento vs End. Aberto). **Obj:** Acesso direto O(1). | [Notebook](Semana_12.ipynb) |
+| **13** | **Grafos: Intro e Travessias** | **Conteúdo:** Representação (Matriz/Lista Adjacência), Busca em Largura (BFS) e Profundidade (DFS). **Obj:** Modelar relacionamentos e percorrer grafos. | [Notebook](Semana_13.ipynb) |
+| **14** | **Revisão e Prática III** | **Atividade:** Problemas de cálculo de hash e desenho de travessias em grafos. **Foco:** Preparação para a prova. | [Lista 03](Lista_03.pdf) |
 | **15** | **🛡️ PROVA 3** | **Avaliação:** Hashing e Fundamentos de Grafos (Conceitos + BFS/DFS). | -- |
-| **16** | **Caminhos Mínimos** | **Conteúdo:** Algoritmos de Dijkstra (Guloso) e Bellman-Ford (Pesos negativos).<br>**Obj:** Encontrar rotas de menor custo em grafos ponderados. | [Notebook](Semana_16.ipynb) |
-| **17** | **Topologia e MST** | **Conteúdo:** Árvore Geradora Mínima (Prim/Kruskal) e Ordenação Topológica.<br>**Obj:** Conectividade de redes e resolução de dependências. | [Notebook](Semana_17.ipynb) |
-| **18** | **Revisão e Prática IV** | **Atividade:** Resolução de problemas complexos de grafos (estilo Maratona de Programação).<br>**Foco:** Identificar qual algoritmo usar. | [Lista 04](Lista_04.pdf) |
+| **16** | **Caminhos Mínimos** | **Conteúdo:** Algoritmos de Dijkstra (Guloso) e Bellman-Ford (Pesos negativos). **Obj:** Encontrar rotas de menor custo em grafos ponderados. | [Notebook](Semana_16.ipynb) |
+| **17** | **Topologia e MST** | **Conteúdo:** Árvore Geradora Mínima (Prim/Kruskal) e Ordenação Topológica. **Obj:** Conectividade de redes e resolução de dependências. | [Notebook](Semana_17.ipynb) |
+| **18** | **Revisão e Prática IV** | **Atividade:** Resolução de problemas complexos de grafos (estilo Maratona de Programação). **Foco:** Identificar qual algoritmo usar. | [Lista 04](Lista_04.pdf) |
 | **19** | **🛡️ PROVA 4** | **Avaliação:** Caminhos Mínimos, MST e Ordenação Topológica. | -- |
 | **20** | **🚀 PROJETO 2** | **Entrega:** Sistema de Detecção de Outliers e Anomalias: Identificar lesões raras que não se agrupam em clusters conhecidos. | -- |
 
