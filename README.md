@@ -4,48 +4,51 @@ Este repositório contém materiais, códigos e projetos desenvolvidos na discip
 
 ## 🎯 Objetivo Geral
 
-Capacitar os alunos a compreender, projetar e implementar estruturas e algoritmos fundamentais, com foco na análise de complexidade e na aplicação prática de técnicas de ordenação, manipulação de listas, árvores, grafos e demais estruturas de dados.  
+Capacitar os alunos a compreender, projetar e implementar estruturas e algoritmos fundamentais, com foco na análise de complexidade e na aplicação prática de manipulação de listas, árvores, grafos e demais estruturas de dados.  
   
 **Habilidades Desenvolvidas:**
 
 - Análise de algoritmos e avaliação de desempenho (Big O, casos melhores, piores e médios);
-- Implementação prática de algoritmos de ordenação e estruturas de listas (simples, duplas e circulares);
-- Construção e manipulação de árvores (BST, AVL, B-Trees e Heaps) e grafos;
-- Aplicação de técnicas de busca e otimização em problemas reais.
+- Implementação prática de estruturas dinâmicas e manipulação de ponteiros;
+- Construção, manipulação e balanceamento de árvores (Árvores Binárias, BST, AVL, B-Trees e Heaps) e grafos;
+- Aplicação de técnicas de otimização em problemas reais.
 
 ## 📚 Metodologia
 
 - **Aulas Expositivas e Discussões Teóricas:** Revisão e aprofundamento dos principais conceitos de estruturas de dados e algoritmos.
 - **Atividades Práticas:** Implementação dos algoritmos e estruturas em linguagens como Python ou Java, com ênfase em exercícios de análise de complexidade e comparação de desempenho.
 - **Projetos Práticos:** Desenvolvimento de soluções integradas utilizando as estruturas estudadas, aplicadas em problemas reais.
-- **Seminários:** Apresentações e debates sobre temas atuais e casos de uso práticos (ex: comparação entre algoritmos de ordenação e aplicações de listas encadeadas).
+- **Seminários:** Apresentações e debates sobre temas atuais e casos de uso práticos (ex: comparação entre estruturas de dados e aplicações).
 
 ## 🗓️ Estrutura do Curso
 
-A disciplina é dividida em 20 semanas, com aulas semanais, distribuídas conforme a seguinte programação:
+A disciplina é dividida em 23 semanas, com aulas semanais, distribuídas conforme a seguinte programação:
 
 | Sem | Tópico | Descrição e Objetivos | 🛠️ Material |
 | :-: | :--- | :--- | :--- |
-| **01** | **Algoritmos de Busca** | **Conteúdo:** Busca Linear, Binária (Iterativa/Recursiva) e Interpolada.<br>**Obj:** Entender limitações de vetores e a necessidade de dados ordenados. | [Notebook](Semana_01_(ED2).ipynb) |
-| **02** | **Árvores Binárias e BST** | **Conteúdo:** Conceitos (Raiz, Folha, Altura), Percursos (Pré/Em/Pós-ordem) e operações em BST.<br>**Obj:** Implementar recursão e operações de CRUD em árvores. | [Notebook](Semana_02_(ED2).ipynb) |
-| **03** | **Revisão e Prática I** | **Atividade:** Resolução de lista de exercícios focada em recursão e manipulação de ponteiros em BST.<br>**Foco:** Preparação para a prova. | [Lista 01](Lista_01.pdf) |
-| **04** | **🛡️ PROVA 1** | **Avaliação:** Algoritmos de Busca e Árvores Binárias de Busca (BST). | -- |
-| **05** | **Árvores AVL (Balanceamento)** | **Conteúdo:** Fator de balanceamento, Rotações Simples (LL, RR) e Duplas (LR, RL).<br>**Obj:** Garantir busca em tempo $O(\log n)$ no pior caso. | [Notebook](Semana_05.ipynb) |
-| **06** | **Heaps e B-Trees** | **Conteúdo:** Filas de Prioridade (Binary Heaps) e introdução a Árvores B (armazenamento em disco).<br>**Obj:** Aplicações em ordenação e bancos de dados. | [Notebook](Semana_06.ipynb) |
-| **07** | **Revisão e Prática II** | **Atividade:** Exercícios de rastreamento de rotações AVL e simulação de operações em Heaps.<br>**Foco:** Fixação de regras de balanceamento. | [Lista 02](Lista_02.pdf) |
-| **08** | **🛡️ PROVA 2** | **Avaliação:** Árvores AVL, Heaps e Conceitos de B-Trees. | -- |
-| **09** | **🗣️ Seminário 1** | **Tópicos Extras:** <br> 1. Árvores Rubro-Negras (Red-Black Trees); <br> 2. Tries (Árvores de Prefixo) e Huffman; <br> 3. Árvores Splay ou Skip Lists. | [Diretrizes](Seminario_01.pdf) |
-| **10** | **🚀 PROJETO 1** | Entrega: Motor de Busca por Similaridade (K-Nearest Neighbors) otimizado por uma KD-Tree. | [Spec Projeto](Projeto_01.pdf) |
-| **11** | **Hashing (Tabelas Hash)** | **Conteúdo:** Funções de Hash, Tabelas de Dispersão e Tratamento de Colisões (Encadeamento vs End. Aberto).<br>**Obj:** Acesso direto $O(1)$. | [Notebook](Semana_11.ipynb) |
-| **12** | **Grafos: Intro e Travessias** | **Conteúdo:** Representação (Matriz/Lista Adjacência), Busca em Largura (BFS) e Profundidade (DFS).<br>**Obj:** Modelar relacionamentos e percorrer grafos. | [Notebook](Semana_12.ipynb) |
-| **13** | **Revisão e Prática III** | **Atividade:** Problemas de cálculo de hash e desenho de travessias em grafos.<br>**Foco:** Preparação para a prova. | [Lista 03](Lista_03.pdf) |
-| **14** | **🛡️ PROVA 3** | **Avaliação:** Hashing e Fundamentos de Grafos (Conceitos + BFS/DFS). | -- |
-| **15** | **Caminhos Mínimos** | **Conteúdo:** Algoritmos de Dijkstra (Guloso) e Bellman-Ford (Pesos negativos).<br>**Obj:** Encontrar rotas de menor custo em grafos ponderados. | [Notebook](Semana_15.ipynb) |
-| **16** | **Topologia e MST** | **Conteúdo:** Árvore Geradora Mínima (Prim/Kruskal) e Ordenação Topológica.<br>**Obj:** Conectividade de redes e resolução de dependências. | [Notebook](Semana_16.ipynb) |
-| **17** | **Revisão e Prática IV** | **Atividade:** Resolução de problemas complexos de grafos (estilo Maratona de Programação).<br>**Foco:** Identificar qual algoritmo usar. | [Lista 04](Lista_04.pdf) |
-| **18** | **🛡️ PROVA 4** | **Avaliação:** Caminhos Mínimos, MST e Ordenação Topológica. | -- |
-| **19** | **🗣️ Seminário 2** | **Tópicos Extras:** <br> 1. Algoritmos de Fluxo Máximo (Ford-Fulkerson); <br> 2. Busca Heurística A* (A-Star); <br> 3. Filtros de Bloom (Bloom Filters) e HyperLogLog. | [Diretrizes](Seminario_02.pdf) |
-| **20** | **🚀 PROJETO 2** | **Entrega:** Sistema de Detecção de Outliers e Anomalias: Identificar lesões raras que não se agrupam em clusters conhecidos. |
+| **01** | **Introdução a Árvores** | **Conteúdo:** Conceitos básicos, terminologia (Raiz, Folha, Altura, Grau) e aplicações.<br>**Obj:** Entender estruturas hierárquicas e o abandono da linearidade. | [Notebook](Semana_01.ipynb) |
+| **02** | **Árvores Binárias (Parte 1)** | **Conteúdo:** Representação na memória e noções de recursão estrutural.<br>**Obj:** Criação de nós e manipulação de ligações esquerda/direita. | [Notebook](Semana_02.ipynb) |
+| **03** | **Árvores Binárias (Parte 2)** | **Conteúdo:** Percursos em profundidade (Pré, Em e Pós-ordem) e em largura.<br>**Obj:** Navegação e extração de dados de forma sistemática. | [Notebook](Semana_03.ipynb) |
+| **04** | **Revisão e Prática I** | **Atividade:** Resolução de lista de exercícios focada em recursão e ponteiros em árvores.<br>**Foco:** Preparação para a prova. | [Lista 01](Lista_01.pdf) |
+| **05** | **🛡️ PROVA 1** | **Avaliação:** Fundamentos de Árvores e Árvores Binárias (Estrutura e Percursos). | -- |
+| **06** | **Árvores Binárias de Busca (BST)** | **Conteúdo:** Regras fundamentais, busca, inserção e remoção.<br>
+
+[Image of binary search tree data structure]
+<br>**Obj:** Garantir a propriedade de ordenação e integridade após modificações. | [Notebook](Semana_06.ipynb) |
+| **07** | **Árvores AVL (Parte 1)** | **Conteúdo:** Fator de balanceamento e Rotações Simples (LL, RR).<br><br>**Obj:** Identificar o desbalanceamento e aplicar correções básicas. | [Notebook](Semana_07.ipynb) |
+| **08** | **Árvores AVL (Parte 2)** | **Conteúdo:** Rotações Duplas (LR, RL) e balanceamento contínuo.<br>**Obj:** Garantir busca em tempo O(log n) em todos os casos. | [Notebook](Semana_08.ipynb) |
+| **09** | **Revisão e Prática II** | **Atividade:** Exercícios de rastreamento de rotações AVL no papel e no código.<br>**Foco:** Fixação de regras de balanceamento. | [Lista 02](Lista_02.pdf) |
+| **10** | **🛡️ PROVA 2** | **Avaliação:** Árvores Binárias de Busca (BST), Árvores AVL e Balanceamento. | -- |
+| **11** | **Heaps e B-Trees** | **Conteúdo:** Filas de Prioridade (Binary Heaps) e introdução a Árvores B (armazenamento em disco).<br>**Obj:** Aplicações em ordenação e bancos de dados. | [Notebook](Semana_11.ipynb) |
+| **12** | **Hashing (Tabelas Hash)** | **Conteúdo:** Funções de Hash, Tabelas de Dispersão e Tratamento de Colisões (Encadeamento vs End. Aberto).<br>**Obj:** Acesso direto O(1). | [Notebook](Semana_14.ipynb) |
+| **13** | **Grafos: Intro e Travessias** | **Conteúdo:** Representação (Matriz/Lista Adjacência), Busca em Largura (BFS) e Profundidade (DFS).<br><br>**Obj:** Modelar relacionamentos e percorrer grafos. | [Notebook](Semana_15.ipynb) |
+| **14** | **Revisão e Prática III** | **Atividade:** Problemas de cálculo de hash e desenho de travessias em grafos.<br>**Foco:** Preparação para a prova. | [Lista 03](Lista_03.pdf) |
+| **15** | **🛡️ PROVA 3** | **Avaliação:** Hashing e Fundamentos de Grafos (Conceitos + BFS/DFS). | -- |
+| **16** | **Caminhos Mínimos** | **Conteúdo:** Algoritmos de Dijkstra (Guloso) e Bellman-Ford (Pesos negativos).<br>**Obj:** Encontrar rotas de menor custo em grafos ponderados. | [Notebook](Semana_18.ipynb) |
+| **17** | **Topologia e MST** | **Conteúdo:** Árvore Geradora Mínima (Prim/Kruskal) e Ordenação Topológica.<br>**Obj:** Conectividade de redes e resolução de dependências. | [Notebook](Semana_19.ipynb) |
+| **18** | **Revisão e Prática IV** | **Atividade:** Resolução de problemas complexos de grafos (estilo Maratona de Programação).<br>**Foco:** Identificar qual algoritmo usar. | [Lista 04](Lista_04.pdf) |
+| **19** | **🛡️ PROVA 4** | **Avaliação:** Caminhos Mínimos, MST e Ordenação Topológica. | -- |
+| **20** | **🚀 PROJETO 2** | **Entrega:** Sistema de Detecção de Outliers e Anomalias: Identificar lesões raras que não se agrupam em clusters conhecidos. | -- |
 
 ## 💡 Como Utilizar Este Repositório
 
