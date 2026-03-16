@@ -28,16 +28,10 @@ A disciplina é dividida em 20 semanas, com aulas semanais, distribuídas confor
 | :-: | :--- | :--- | :--- |
 | **01** | **Algoritmos de Busca** | **Conteúdo:** Busca Binária (Iterativa e Recursiva) e análise de complexidade.<br> **Obj:** Compreender a busca eficiente em dados ordenados e a lógica de divisão e conquista. | [Notebook](Semana_01.ipynb) |
 | **02** | **Introdução a Árvores** | **Conteúdo:** Conceitos básicos, terminologia (Raiz, Folha, Altura, Grau) e aplicações.<br>**Obj:** Entender estruturas hierárquicas e o abandono da linearidade. | [Notebook](Semana_02.ipynb) |
-| **03** | **Árvores Binárias** | **Conteúdo:** Representação na memória, recursão estrutural e percursos (Pré, Em, Pós-ordem e Largura).<br>
-
-[Image of binary tree traversal]
-<br>**Obj:** Criação de nós, manipulação de ligações e extração de dados. | [Notebook](Semana_03.ipynb) |
+| **03** | **Árvores Binárias** | **Conteúdo:** Representação na memória, recursão estrutural e percursos (Pré, Em, Pós-ordem e Largura).<br>**Obj:** Criação de nós, manipulação de ligações e extração de dados. | [Notebook](Semana_03.ipynb) |
 | **04** | **Revisão e Prática I** | **Atividade:** Resolução de lista de exercícios focada em recursão e ponteiros em árvores.<br>**Foco:** Preparação para a prova. | [Lista 01](Lista_01.pdf) |
 | **05** | **🛡️ PROVA 1** | **Avaliação:** Busca Binária, Fundamentos de Árvores e Árvores Binárias (Estrutura e Percursos). | -- |
-| **06** | **Árv. Binárias de Busca (BST)** | **Conteúdo:** Regras fundamentais, busca, inserção e remoção.<br>
-
-[Image of binary search tree data structure]
-<br>**Obj:** Garantir a propriedade de ordenação e integridade após modificações. | [Notebook](Semana_06.ipynb) |
+| **06** | **Árv. Binárias de Busca (BST)** | **Conteúdo:** Regras fundamentais, busca, inserção e remoção.<br>**Obj:** Garantir a propriedade de ordenação e integridade após modificações. | [Notebook](Semana_06.ipynb) |
 | **07** | **Árvores AVL (Parte 1)** | **Conteúdo:** Fator de balanceamento e Rotações Simples (LL, RR).<br><br>**Obj:** Identificar o desbalanceamento e aplicar correções básicas. | [Notebook](Semana_07.ipynb) |
 | **08** | **Árvores AVL (Parte 2)** | **Conteúdo:** Rotações Duplas (LR, RL) e balanceamento contínuo.<br>**Obj:** Garantir busca em tempo O(log n) em todos os casos. | [Notebook](Semana_08.ipynb) |
 | **09** | **Revisão e Prática II** | **Atividade:** Exercícios de rastreamento de rotações AVL no papel e no código.<br>**Foco:** Fixação de regras de balanceamento. | [Lista 02](Lista_02.pdf) |
