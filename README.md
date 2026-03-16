@@ -32,9 +32,6 @@ A disciplina é dividida em 23 semanas, com aulas semanais, distribuídas confor
 | **04** | **Revisão e Prática I** | **Atividade:** Resolução de lista de exercícios focada em recursão e ponteiros em árvores.<br>**Foco:** Preparação para a prova. | [Lista 01](Lista_01.pdf) |
 | **05** | **🛡️ PROVA 1** | **Avaliação:** Fundamentos de Árvores e Árvores Binárias (Estrutura e Percursos). | -- |
 | **06** | **Árvores Binárias de Busca (BST)** | **Conteúdo:** Regras fundamentais, busca, inserção e remoção.<br>
-
-[Image of binary search tree data structure]
-<br>**Obj:** Garantir a propriedade de ordenação e integridade após modificações. | [Notebook](Semana_06.ipynb) |
 | **07** | **Árvores AVL (Parte 1)** | **Conteúdo:** Fator de balanceamento e Rotações Simples (LL, RR).<br><br>**Obj:** Identificar o desbalanceamento e aplicar correções básicas. | [Notebook](Semana_07.ipynb) |
 | **08** | **Árvores AVL (Parte 2)** | **Conteúdo:** Rotações Duplas (LR, RL) e balanceamento contínuo.<br>**Obj:** Garantir busca em tempo O(log n) em todos os casos. | [Notebook](Semana_08.ipynb) |
 | **09** | **Revisão e Prática II** | **Atividade:** Exercícios de rastreamento de rotações AVL no papel e no código.<br>**Foco:** Fixação de regras de balanceamento. | [Lista 02](Lista_02.pdf) |
